@@ -10,7 +10,8 @@ an index for obvious reasons... */
 
 // export all from navigaion folder
 export { default as Footer } from './navigation/footer/footer';
-export { default as NavItem } from './navigation/navItem/navItem';
+export { default as NavItems } from './navigation/navItems/ul/navItems';
+export { default as NavItem } from './navigation/navItems/li/navItem';
 export { default as Sidedrawer } from './navigation/sidedrawer/sidedrawer';
 export { default as Nav } from './navigation/toolbar/toolbar';
 
@@ -22,8 +23,11 @@ export { default as Row } from './grid/Row';
 // export all from structure
 
 // all all from UI folder
-export { default as Input } from './UI/input/input';
+export { default as Btn } from './UI/button/button';
 export { default as Form } from './UI/form/form';
+export { default as Input } from './UI/input/input';
 export { default as Modal } from './UI/modal/modal';
-export { default as Backdrop } from './UI/backdrop/backdrop';
 
+// export all from visual folder 
+export { default as Backdrop } from './visual/backdrop/backdrop';
+export { default as Logo } from './visual/logo/logo';

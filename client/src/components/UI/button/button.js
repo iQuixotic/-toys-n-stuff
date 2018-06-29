@@ -4,9 +4,9 @@ import './style.css';
 
 const Btn = (props) => {
     return(
-        <div className='Btn-mine'>
+        <a className="waves-effect waves-light btn Btn-mine" {...props}>
             {props.children}
-        </div>
+        </a>
     );
 }
 

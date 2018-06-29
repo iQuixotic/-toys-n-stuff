@@ -1,16 +1,60 @@
 
 import React, { Component } from "react";
-import { Form } from "../../../components";
+
+// import components
+import { 
+        Container, Row, 
+        Btn, Form, Input
+ } from "../../../components";
+
+// import containers
+import { Layout
+} from "../../../containers";
+
 
 class Login extends Component {
+  state = {
+    inputVal: '',
+    selectedField: this.props.id,
+    shouldSubmit: false,
+  }
+
+
+selectFieldHandler = () => {
+    console.log({[this.state.selectedField]: this.state.inputVal})
+}
+
+inputChangeHandler = event => {
+    this.setState({ 
+        inputVal: (event.target.value),
+    })
+    let data = {
+        [this.state.selectedField]: this.state.inputVal
+    }
+    console.log(data)
+}
+
   formSubmitHandler = () => {
     console.log('hello world')
   }
  
   render() {
     return (
-      <div id='login-page'>
-        <Form cn='login'/>
+      <div className='Login'>
+      <Layout>
+        <Container>
+            <Form>
+              <Input label='Username'/>
+              <Input label='Password'/>
+
+              <Row>
+                <Btn onClick={this.formSubmitHandler}>Submit</Btn>
+                <Btn>Register</Btn>
+              </Row>
+            </Form>          
+        </Container>
+      </Layout>
+
       </div>
     );
   }

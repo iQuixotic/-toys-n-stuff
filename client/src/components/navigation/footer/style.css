@@ -6,4 +6,5 @@
     position: fixed;
     background-color: rgb(240, 219, 243);
     display: flex;
+    z-index: 90;
 }

@@ -1,0 +1,12 @@
+.Btn-mine {
+    background-color: rgb(245, 2, 43);
+    margin: 6px 10px;
+}
+
+.Btn-mine:hover {
+    background-color: rgb(184, 62, 113);
+}
+
+.Btn-mine:after {
+    background-color: rgb(17, 3, 9);
+}

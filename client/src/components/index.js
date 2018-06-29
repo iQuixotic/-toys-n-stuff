@@ -9,9 +9,10 @@ component type.
 an index for obvious reasons... */
 
 // export all from navigaion folder
-export { default as Nav } from './navigation/toolbar/toolbar';
-export { default as NavItem } from './navigation/navItem/navItem';
 export { default as Footer } from './navigation/footer/footer';
+export { default as NavItem } from './navigation/navItem/navItem';
+export { default as Sidedrawer } from './navigation/sidedrawer/sidedrawer';
+export { default as Nav } from './navigation/toolbar/toolbar';
 
 // export all from grid 
 export { default as Col } from './grid/Col';

@@ -1,7 +1,5 @@
 import React from "react";
-import { Div,
-         Input,
-        
+import { Input,
         } from '../../index';
 
 const Form = (props) => {
@@ -10,7 +8,7 @@ const Form = (props) => {
         (
             {props.cn} === 'login' ?
             <Input /> :
-            <Div> Null </Div>
+            <div> Null </div>
         )
             
         </div>

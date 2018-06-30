@@ -1,6 +1,8 @@
 import React from "react";
-import { Logo, 
+import { 
+         Logo, 
          NavItems, 
+         Burger
  } from '../../../components'
 
 
@@ -9,11 +11,11 @@ import './style.css';
 const Nav = (props) => {
     return (
         <header className='Navbar'>
-            <div>MENU</div>
-            <Logo/>
+            <Burger id='nav-top-burger' size='3x'/>
+            <Logo id='nav-top-train'/>
 
             <nav>
-                <NavItems />
+                <NavItems top='true'/>
             </nav>
         </header>
     );

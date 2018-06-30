@@ -1,17 +1,20 @@
 import React from "react";
+import { 
+        NavItems, 
+        Logo,
+} from '../../../components'
 
 import './style.css';
 
 const Sidedrawer = (props) => {
     return (
-        <header className='Sidedrawer'>
-            <div>MENU</div>
-            <div>LOGO</div>
+        <div className='Sidedrawer'>
+        <Logo />
 
-            <nav>
-                ...
-            </nav>
-        </header>
+        <nav>
+            <NavItems top='true' />
+        </nav>
+    </div>
     );
 }
 

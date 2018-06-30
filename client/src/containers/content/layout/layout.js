@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import {
   Nav, Footer, Sidedrawer,
+  Burger,
+  BackDrop,
 } from '../../../components';
 
 import './style.css';
@@ -12,7 +14,8 @@ class Layout extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isMobile: true
+      isMobile: true,
+      sideDrawerOpen: false
     };
 
     this.updatePredicate = this.updatePredicate.bind(this);
@@ -29,35 +32,35 @@ class Layout extends Component {
   updatePredicate() {
     this.setState({ isMobile: window.innerWidth > 600 });
   }
+
+  sideDrawerToggle = () => {
+    let toggle = !this.state.sideDrawerOpen
+    this.setState({ sideDrawerOpen: toggle })
+    console.log(this.state.sideDrawerOpen)
+  }
+
   render() {
     const isMobile = this.state.isMobile;
     return (
-      <div>
-        <div>
 
-          {isMobile ? (
             <div>
-              <Nav />
+              {isMobile ? 
+              <Nav /> : 
+                (!this.state.sideDrawerOpen ?
+                  
+                <div className='hamburger' ><Burger size='4x' onClick={this.sideDrawerToggle}/></div>:
+                <div onClick={this.sideDrawerToggle}><BackDrop/><Sidedrawer /></div>
+                            
+                )
+              }
               <div className='under-nav'>
                 {this.props.children}
               </div>
-              <Footer />
-            </div>
-          ) : (
-              <div>
-                <div>
-                  <Sidedrawer />
-                  <div className='under-nav'>
-                    {this.props.children}
-                  </div>
-                  <Footer />
-                </div>
+              <div className='above-footer'>
+                <Footer />
               </div>
-            )}
-
-        </div>
-
-      </div>
+            </div>
+          
     );
   }
 }

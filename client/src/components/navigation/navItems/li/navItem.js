@@ -5,7 +5,7 @@ import './style.css';
 
 const NavItem = (props) => {
     return(
-            <li className='NavItem'><a href={props.link}>{props.children}</a></li>
+           <li className='NavigationItem'><a href={props.link} {...props}>{props.children}</a></li>
     );
 }
 

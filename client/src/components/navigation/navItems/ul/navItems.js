@@ -8,19 +8,27 @@ import './style.css';
 const NavItems = (props) => {
     return (
         <ul className='NavItems'>
+            { props.top ?
+                <div className='center'>
+                    <NavItem link='/test'>
+                        Dashboard
+                    </NavItem>
 
-            <NavItem link='/test'>
-                Home
-            </NavItem>
+                    <NavItem link='/'>
+                        Search
+                    </NavItem>
 
-            <NavItem link='/test'>
-                Login
-            </NavItem>
+                    <NavItem link='/contact' active>
+                        Browse
+                    </NavItem>
 
-            <NavItem link='/test'>
-                Test
-            </NavItem>
-            
+                    <NavItem link='/contact'>
+                        Cart
+                    </NavItem>
+                </div> :
+                null
+            }
+
         </ul>
     );
 }

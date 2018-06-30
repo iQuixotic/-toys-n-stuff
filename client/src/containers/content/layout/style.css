@@ -1,3 +1,11 @@
 .under-nav {
     padding-top: 70px;
 }
+
+.above-footer {
+    padding-bottom: 50px;
+}
+
+.hamburger {
+    border-radius: 10px;    
+}

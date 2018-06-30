@@ -4,7 +4,7 @@ import React, { Component } from "react";
 // import components
 import { 
         Container, Row, 
-        Btn, Form, Input
+        Btn, Form, Input,
  } from "../../../components";
 
 // import containers
@@ -46,7 +46,6 @@ inputChangeHandler = event => {
             <Form>
               <Input label='Username'/>
               <Input label='Password'/>
-
               <Row>
                 <Btn onClick={this.formSubmitHandler}>Submit</Btn>
                 <Btn>Register</Btn>

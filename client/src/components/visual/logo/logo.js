@@ -6,7 +6,7 @@ import './style.css';
 const Logo = (props) => {
     return(
         <div className='Logo'>
-            <img src={train} alt='#' />
+            <img src={train} alt='#' {...props} />
         </div>
     );
 }

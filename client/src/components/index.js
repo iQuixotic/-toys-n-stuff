@@ -29,5 +29,6 @@ export { default as Input } from './UI/input/input';
 export { default as Modal } from './UI/modal/modal';
 
 // export all from visual folder 
-export { default as Backdrop } from './visual/backdrop/backdrop';
-export { default as Logo } from './visual/logo/logo';
+export { default as BackDrop } from './visual/backdrop/backdrop';
+export { default as Logo } from './visual/logo/logo';  
+export { default as Burger } from './visual/icons/hamburger/hamburger';

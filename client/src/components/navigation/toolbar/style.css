@@ -19,5 +19,13 @@
     background-color: rgb(39, 6, 32);
     height: 100%;
     box-shadow: none;
-    
+}
+
+#nav-top-burger {
+    color: white;
+}
+
+#nav-top-train {
+    border-top: 5px;
+    border-color: black;
 }

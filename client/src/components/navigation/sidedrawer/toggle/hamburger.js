@@ -2,11 +2,11 @@ import React from "react";
 import './style.css';
 import { Icon } from 'react-fa';
 
-// icon for opening sidedrawer
+// hamburger (industry term) icon for opening sidedrawer
 const Burger = (props) => {
     return(
     <div>
-         <Icon name=" fa-bars" size={props.size} className='hamburger' {...props} />
+         <Icon name=" fa-bars" size={props.size} className='Hamburger' {...props} />
     </div>
     );
 }

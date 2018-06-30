@@ -14,15 +14,11 @@ const NavItems = (props) => {
                         Dashboard
                     </NavItem>
 
-                    <NavItem link='/'>
-                        Search
-                    </NavItem>
-
                     <NavItem link='/contact' active>
                         Browse
                     </NavItem>
 
-                    <NavItem link='/contact'>
+                    <NavItem link='/'>
                         Cart
                     </NavItem>
                 </div> :

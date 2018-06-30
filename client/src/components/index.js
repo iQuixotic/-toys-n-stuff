@@ -12,7 +12,8 @@ an index for obvious reasons... */
 export { default as Footer } from './navigation/footer/footer';
 export { default as NavItems } from './navigation/navItems/ul/navItems';
 export { default as NavItem } from './navigation/navItems/li/navItem';
-export { default as Sidedrawer } from './navigation/sidedrawer/sidedrawer';
+export { default as Sidedrawer } from './navigation/sidedrawer/drawer/sidedrawer';
+export { default as Burger } from './navigation/sidedrawer/toggle/hamburger';
 export { default as Nav } from './navigation/toolbar/toolbar';
 
 // export all from grid 
@@ -24,11 +25,10 @@ export { default as Row } from './grid/Row';
 
 // all all from UI folder
 export { default as Btn } from './UI/button/button';
-export { default as Form } from './UI/form/form';
 export { default as Input } from './UI/input/input';
 export { default as Modal } from './UI/modal/modal';
 
 // export all from visual folder 
 export { default as BackDrop } from './visual/backdrop/backdrop';
+export { default as Form } from './visual/form/form';
 export { default as Logo } from './visual/logo/logo';  
-export { default as Burger } from './visual/icons/hamburger/hamburger';

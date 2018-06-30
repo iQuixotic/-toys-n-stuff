@@ -5,7 +5,7 @@
     height: 45px;
     width: auto;
     align-items: center;
-    width: 25%;
+    width: 33%;
     align-content: center;
 }
 
@@ -23,7 +23,6 @@
 .NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a.active {
-    /* align-content: center; */
     width: 100%;
     background-color: rgb(83, 0, 79);
     border-bottom: 4px solid rgb(179, 0, 68);

@@ -48,7 +48,7 @@ class Layout extends Component {
               <Nav /> : 
                 (!this.state.sideDrawerOpen ?
                   
-                <div className='hamburger' ><Burger size='4x' onClick={this.sideDrawerToggle}/></div>:
+                <div className='mobile-burger' ><Burger size='3x' onClick={this.sideDrawerToggle}/></div>:
                 <div onClick={this.sideDrawerToggle}><BackDrop/><Sidedrawer /></div>
                             
                 )

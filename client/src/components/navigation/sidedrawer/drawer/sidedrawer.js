@@ -2,7 +2,7 @@ import React from "react";
 import { 
         NavItems, 
         Logo,
-} from '../../../components'
+} from '../../../../components'
 
 import './style.css';
 

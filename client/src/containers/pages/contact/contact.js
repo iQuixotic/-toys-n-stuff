@@ -45,37 +45,37 @@ inputChangeHandler = event => {
                     <Container>
                         <Form>
                             <Row>
-                                <Col size='l6'>
+                                <Col size='l6 s6'>
                                     <Input label='First Name' />
                                 </Col>
-                                <Col size='l6'>
+                                <Col size='l6 s6'>
                                     <Input label='Last Name' />
                                 </Col>
                             </Row>
                             <Row>
-                                <Col size='l7'>
+                                <Col size='l7 s12'>
                                     <Input label='Email' />
                                 </Col>
-                                <Col size='l5'>
-                                    <Input label='Phone Number' />
+                                <Col size='l5 s12'>
+                                    <Input label='Phone' />
                                 </Col>
                             </Row>
                             <Row>
-                                <Col size='l5'>
+                                <Col size='l5 s12'>
                                     <Input label='Adress' />
                                 </Col>
-                                <Col size='l5'>
+                                <Col size='l5 s9'>
                                     <Input label='City' />
                                 </Col>
-                                <Col size='l2'>
+                                <Col size='l2 s3'>
                                     <Input label='State' />
                                 </Col>
                             </Row>
                             <Row>
-                                <Col size='l6'>
+                                <Col size='l6 s12'>
                                     <Input label='Password' />
                                 </Col>
-                                <Col size='l6'>
+                                <Col size='l6 s12'>
                                     <Input label='Confirm Password' />
                                 </Col>
                             </Row>

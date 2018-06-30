@@ -1,6 +1,6 @@
 #Input {
     width: 100%;
-    padding: 0 5px 0 2px;
+    padding: 10px 5px 0 2px;
     box-sizing: border-box;
 }
 
@@ -35,12 +35,21 @@
 
 #Input .Input-Element:focus {
     background-color: rgba(226, 224, 224, 0.212);
-    border-bottom: rgb(255, 0, 0);
-    -webkit-box-shadow: 0px 1px 0px 0px rgb(202, 29, 29);
-    -moz-box-shadow: 0px 1px 0px 0px rgb(202, 29, 29);
-    box-shadow: 0px 2px 0px 0px rgb(255, 0, 0, .7);
+    border-bottom: rgb(127, 27, 131);
+    -webkit-box-shadow: 0px 1px 0px 0px rgb(127, 27, 131);
+    -moz-box-shadow: 0px 1px 0px 0px rgb(127, 27, 131);
+    box-shadow: 0px 2px 0px 0px rgb(127, 27, 131);
     transition: ease 1s;
 }
+/* 
+#Input .Input-Element:focus {
+    background-color: rgba(226, 224, 224, 0.212);
+    border-bottom: rgb(16, 0, 160);
+    -webkit-box-shadow: 0px 1px 0px 0px rgb(16, 0, 160);
+    -moz-box-shadow: 0px 1px 0px 0px rgb(16, 0, 160);
+    box-shadow: 0px 2px 0px 0px rgb(16, 0, 160);
+    transition: ease 1s;
+} */
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */
@@ -57,5 +66,12 @@
         font-weight: 500;
         height: 37px;
     }
+
+    /* #Input .Input-Element:focus {
+        border-bottom: rgb(255, 0, 0);
+        -webkit-box-shadow: 0px 1px 0px 0px rgb(202, 29, 29);
+        -moz-box-shadow: 0px 1px 0px 0px rgb(202, 29, 29);
+        box-shadow: 0px 2px 0px 0px rgb(255, 0, 0, .7);
+    } */
 
 }

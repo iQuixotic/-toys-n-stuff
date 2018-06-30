@@ -3,3 +3,9 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.buttons-row {
+  text-align: center;
+  padding: 40px 0 0 0;
+  margin-left: 10px;
+}

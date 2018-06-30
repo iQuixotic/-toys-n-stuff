@@ -12,6 +12,9 @@ import {
          Layout
 } from "../../../containers";
 
+import '../../../master/main.css';
+import './style.css';
+
 
 class Login extends Component {
   state = {
@@ -47,10 +50,12 @@ inputChangeHandler = event => {
             <Form>
               <Input label='Username'/>
               <Input label='Password'/>
-              <Row>
-                <Btn onClick={this.formSubmitHandler}>Submit</Btn>
-                <Btn>Register</Btn>
-              </Row>
+              <div className='buttons-row login-btns'> 
+                <Row>
+                  <Btn onClick={this.formSubmitHandler}>Submit</Btn>
+                  <Btn>Register</Btn>
+                </Row>
+              </div>
             </Form>          
         </Container>
       </Layout>

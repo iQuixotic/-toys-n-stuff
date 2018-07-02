@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+
+// import components
 import {
   Nav, Footer, Sidedrawer,
   Burger,

@@ -1,5 +1,7 @@
 import React from "react";
-import { NavItem, 
+
+import {
+    NavItem,
 } from '../../../../components'
 
 import './style.css';
@@ -8,7 +10,8 @@ import './style.css';
 const NavItems = (props) => {
     return (
         <ul className='NavItems'>
-            { props.top ?
+            { 
+                props.top ?
                 <div className='center'>
                     <NavItem link='/test'>
                         Dashboard
@@ -23,6 +26,23 @@ const NavItems = (props) => {
                     </NavItem>
                 </div> :
                 null
+            }
+            {
+                props.bottom ?
+                <div >
+                <NavItem link='/test'>
+                    Dashboard
+                </NavItem>
+
+                <NavItem link='/contact' active>
+                    Browse
+                </NavItem>
+
+                <NavItem link='/'>
+                    Cart
+                </NavItem>
+            </div> :
+            null
             }
 
         </ul>

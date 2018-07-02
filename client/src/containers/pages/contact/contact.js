@@ -47,11 +47,12 @@ class Contact extends Component {
                 <Layout>
                     <Container>
                         <Form>
+                            <Container>
                             <Row>
-                                <Col size='l6 s6'>
+                                <Col size='l6 s12'>
                                     <Input label='First Name' />
                                 </Col>
-                                <Col size='l6 s6'>
+                                <Col size='l6 s12'>
                                     <Input label='Last Name' />
                                 </Col>
                             </Row>
@@ -89,6 +90,7 @@ class Contact extends Component {
                                     <Btn>Register</Btn>
                                 </Row>
                             </div>
+                            </Container>
                         </Form>
                     </Container>
                 </Layout>

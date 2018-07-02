@@ -48,6 +48,7 @@ inputChangeHandler = event => {
       <Layout>
         <Container>
             <Form>
+              <Container>
               <Input label='Username'/>
               <Input label='Password'/>
               <div className='buttons-row login-btns'> 
@@ -56,6 +57,7 @@ inputChangeHandler = event => {
                   <Btn>Register</Btn>
                 </Row>
               </div>
+              </Container>
             </Form>          
         </Container>
       </Layout>

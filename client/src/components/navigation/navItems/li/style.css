@@ -3,10 +3,8 @@
     box-sizing: border-box;
     display: flex;
     height: 45px;
-    width: auto;
-    align-items: center;
-    width: 33%;
-    align-content: center;
+    float: left;
+    width: 100%;
 }
 
 .NavigationItem a {    
@@ -14,8 +12,7 @@
     width: 100%;
     color: white;
     text-decoration: none;
-    height: 55px;
-    border-bottom: 40px solid transparent;
+    border-bottom: 2px solid rgba(148, 148, 148, 0.979);
     box-sizing: border-box;
     display: block;
 }
@@ -24,8 +21,41 @@
 .NavigationItem a:active,
 .NavigationItem a.active {
     width: 100%;
-    background-color: rgb(65, 42, 71);
-    /* border-bottom: 4px solid rgb(187, 61, 114); */
     color: white;
+    border-bottom: 4px solid rgb(192, 53, 53);
 }
 
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    
+    .NavigationItem {
+        font-family: 'Permanent Marker', cursive;
+        box-sizing: border-box;
+        display: flex;
+        height: 45px;
+        width: auto;
+        align-items: center;
+        width: 33%;
+        align-content: center;
+    }
+    
+    .NavigationItem a {    
+        font-size: 1.6em;
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        height: 55px;
+        border-bottom: 40px solid transparent;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .NavigationItem a:hover,
+    .NavigationItem a:active,
+    .NavigationItem a.active {
+        width: 100%;
+        background-color: rgb(65, 42, 71);
+    }
+
+}

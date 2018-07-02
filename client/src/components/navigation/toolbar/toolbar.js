@@ -1,9 +1,9 @@
 import React from "react";
-import { 
-         Logo, 
-         NavItems, 
-         Burger
- } from '../../../components'
+
+import {
+    NavItems,
+    Burger
+} from '../../../components'
 
 
 import './style.css';
@@ -11,11 +11,10 @@ import './style.css';
 const Nav = (props) => {
     return (
         <header className='Navbar'>
-            <Burger id='nav-top-burger' size='3x'/>
-            <Logo id='nav-top-train'/>
-
+            <Burger id='nav-top-burger' size='3x' />
+            <div id='spacer'></div>
             <nav>
-                <NavItems top='true'/>
+                <NavItems top='true' />
             </nav>
         </header>
     );

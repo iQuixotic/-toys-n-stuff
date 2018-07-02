@@ -1,14 +1,14 @@
 import React from "react";
-import { train } from '../../../assets';
+import { train } from '../../../../assets';
 
 import './style.css';
 
-const Logo = (props) => {
+const Train = (props) => {
     return(
-        <div className='Logo'>
+        <div className='TrainLogo'>
             <img src={train} alt='#' {...props} />
         </div>
     );
 }
 
-export default Logo;
+export default Train;

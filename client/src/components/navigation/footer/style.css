@@ -4,7 +4,17 @@
     bottom: 0;
     left: 0;
     position: fixed;
-    background-color: rgb(240, 219, 243);
+    background-color: rgb(40, 0, 44);
     display: flex;
     z-index: 110;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    
+    .Footer {
+       height: 15px;
+    }
+
 }

@@ -4,7 +4,8 @@
     top: 0;
     left: 0;
     position: fixed;
-    background-color: rgb(64, 13, 77);
+    background-color: rgb(240, 239, 239);
+    /* background-color: rgb(64, 13, 77); */
     /* background-color: rgb(74, 2, 83); */
     display: flex;
     justify-content: space-between;
@@ -23,9 +24,32 @@
 }
 
 #nav-top-burger {
-    color: white;
+    color: rgb(134, 134, 134);
 }
 
-#nav-top-train {
-    border-top: 5px;
+#spacer {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    
+   .Navbar {
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    /* background-color: rgb(54, 11, 65); */
+    background-color: rgb(40, 0, 44);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    box-shadow: 0 0px 6px 1px rgba(0, 0, 0, 0.664);
+    z-index: 90;
+}
+
 }

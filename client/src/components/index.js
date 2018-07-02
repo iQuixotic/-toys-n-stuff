@@ -31,4 +31,4 @@ export { default as Modal } from './UI/modal/modal';
 // export all from visual folder 
 export { default as BackDrop } from './visual/backdrop/backdrop';
 export { default as Form } from './visual/form/form';
-export { default as Logo } from './visual/logo/logo';  
+export { default as Train } from './visual/logo/train/train';  

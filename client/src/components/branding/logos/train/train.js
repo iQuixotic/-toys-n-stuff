@@ -1,5 +1,7 @@
 import React from "react";
-import { train } from '../../../../assets';
+import { 
+    train
+} from '../../../../assets';
 
 import './style.css';
 

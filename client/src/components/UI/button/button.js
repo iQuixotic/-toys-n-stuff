@@ -1,5 +1,7 @@
 import React from "react";
 
+
+import '../../../master/main.css';
 import './style.css';
 
 const Btn = (props) => {

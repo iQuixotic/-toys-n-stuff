@@ -1,16 +1,24 @@
 .Btn-mine {
-    /* background-color: rgb(72, 1, 105); */
-    /* background-color: rgb(236, 148, 15); */
-    /* background-color: rgb(82, 201, 42); */
-    background-color: rgb(171, 116, 202);
+    font-size: 1.0em;
+    padding: 3px 14px 2px;
+    background-color: rgb(55, 197, 20);
     margin: 6px 10px;
 }
 
 .Btn-mine:hover {
-    background-color: rgb(199, 159, 221);
-    /* background-color: rgb(187, 61, 114); */
+    background-color: rgb(102, 233, 76);
 }
 
 .Btn-mine:after {
     background-color: rgb(17, 3, 9);
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    
+    .Btn-mine {
+        font-size: 1em;
+    }
+
 }

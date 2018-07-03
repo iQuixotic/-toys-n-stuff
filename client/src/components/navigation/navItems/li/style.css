@@ -21,12 +21,12 @@
 .NavigationItem a:active,
 .NavigationItem a.active {
     width: 100%;
-    color: white;
-    border-bottom: 4px solid rgb(192, 53, 53);
+    /* border-bottom: 4px solid rgb(23, 142, 163); */
+    border-bottom: 3px solid rgb(55, 197, 20);
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
     /* For desktop: */
     
     .NavigationItem {

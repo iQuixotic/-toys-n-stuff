@@ -8,6 +8,9 @@ component type.
 - The only exception to this pattern will be the master folder, which does not contain
 an index for obvious reasons... */
 
+// export all from branding folder 
+export { default as Train } from './branding/logos/train/train';  
+
 // export all from navigaion folder
 export { default as Footer } from './navigation/footer/footer';
 export { default as NavItems } from './navigation/navItems/ul/navItems';
@@ -30,5 +33,6 @@ export { default as Modal } from './UI/modal/modal';
 
 // export all from visual folder 
 export { default as BackDrop } from './visual/backdrop/backdrop';
+export { default as Card } from './visual/card/card';  
 export { default as Form } from './visual/form/form';
-export { default as Train } from './visual/logo/train/train';  
+export { default as Img } from './visual/img/img';  

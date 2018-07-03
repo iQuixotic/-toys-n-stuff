@@ -1,5 +1,5 @@
 //export all from layout folder
-export { default as Layout } from './content/layout/layout';
+export { default as Layout } from './partials/layout/layout';
 
 // exports from pages
 export { default as Contact } from './pages/contact/contact';

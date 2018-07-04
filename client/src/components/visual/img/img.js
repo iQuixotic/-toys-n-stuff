@@ -5,7 +5,7 @@ import './style.css';
 
 const Img = (props) => {
     return (
-            <img  className='Img' {...props}/>
+            <img  className='Img' alt={props.alt} {...props}/>
     );
 }
 

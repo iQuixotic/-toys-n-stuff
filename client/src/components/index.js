@@ -25,6 +25,7 @@ export { default as Container } from './grid/Container';
 export { default as Row } from './grid/Row';
 
 // export all from structure
+export { default as Form } from './structure/form/form';
 
 // all all from UI folder
 export { default as Btn } from './UI/button/button';
@@ -34,5 +35,4 @@ export { default as Modal } from './UI/modal/modal';
 // export all from visual folder 
 export { default as BackDrop } from './visual/backdrop/backdrop';
 export { default as Card } from './visual/card/card';  
-export { default as Form } from './visual/form/form';
 export { default as Img } from './visual/img/img';  

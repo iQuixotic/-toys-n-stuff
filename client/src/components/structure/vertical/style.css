@@ -1,0 +1,12 @@
+.Vertical {
+    /* align-items: center; */
+    padding: 0px;
+    margin: 0px;
+    /* text-align: center; */
+}
+
+.Vertical-Image {
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+}

@@ -26,6 +26,8 @@ export { default as Row } from './grid/Row';
 
 // export all from structure
 export { default as Form } from './structure/form/form';
+export { default as VerticalContent } from './structure/vertical/vertical';
+
 
 // all all from UI folder
 export { default as Btn } from './UI/button/button';

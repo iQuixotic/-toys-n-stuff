@@ -1,0 +1,4 @@
+.occupy-entire-space {
+    background-color: blue;
+    justify-content: space-between;
+}

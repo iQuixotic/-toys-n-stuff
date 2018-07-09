@@ -10,6 +10,7 @@ import {
   Input,
   Btn,
   Col, Row, Container,
+  VerticalContent,
   Card, Img
 } from "../../../components";
 
@@ -52,8 +53,60 @@ class Test extends Component {
             Lorem ipsom dolar set amit
             <Row><Btn>Click</Btn></Row>
           </Card>
+
           <Row>
-            <Col size='l4'>
+            <h4>Toys</h4>
+          </Row>
+
+            <Row>
+              <Col size='l3'>
+                <VerticalContent
+                  src={t6}
+                  alt='#'
+                  sellerRating='5 stars'
+                  toyRating='4.5 stars'
+
+                >Words here
+            </VerticalContent>
+              </Col>
+
+              <Col size='l3'>
+                <VerticalContent
+                  src={t4}
+                  alt='#'
+                  sellerRating='5 stars'
+                  toyRating='4.5 stars'
+
+                >Words here
+            </VerticalContent>
+              </Col>
+
+              <Col size='l3'>
+                <VerticalContent
+                  src={t5}
+                  alt='#'
+                  sellerRating='5 stars'
+                  toyRating='4.5 stars'
+
+                >Words here
+            </VerticalContent>
+              </Col>
+
+              <Col size='l3'>
+                <VerticalContent
+                  src={t5}
+                  alt='#'
+                  sellerRating='5 stars'
+                  toyRating='4.5 stars'
+
+                >Words here
+            </VerticalContent>
+              </Col>
+            </Row>
+
+ <div className='occupy-entire-space'>
+          <Row>           
+            <Col size='l3'>
               <Card
               picture='true'
               src={t3} 
@@ -63,7 +116,7 @@ class Test extends Component {
                 I am selling you this fire truck !!
               </Card>
             </Col>  
-            <Col size='l4'>
+            <Col size='l3'>
               <Card
               picture='true'
               src={t1} 
@@ -73,7 +126,7 @@ class Test extends Component {
                 I am selling you this brand new car !!
               </Card>
             </Col> 
-            <Col size='l4'>
+            <Col size='l3'>
               <Card
               picture='true'
               src={t2} 
@@ -83,7 +136,111 @@ class Test extends Component {
                 I am selling you this cube !!
               </Card>
             </Col> 
+            <Col size='l3'>
+              <Card
+              picture='true'
+              src={t4} 
+              alt='#'
+              >             
+              
+                I am selling you this brand new car !!
+              </Card>
+            </Col> 
+            
           </Row>
+          </div>
+
+
+
+ <Row>
+            <Col size='l3'>
+              <Card
+              picture='true'
+              src={t3} 
+              alt='#'
+              >             
+              
+                I am selling you this fire truck !!
+              </Card>
+            </Col>  
+            <Col size='l3'>
+              <Card
+              picture='true'
+              src={t1} 
+              alt='#'
+              >             
+              
+                I am selling you this brand new car !!
+              </Card>
+            </Col> 
+            <Col size='l3'>
+              <Card
+              picture='true'
+              src={t2} 
+              alt='#'
+              >             
+              
+                I am selling you this cube !!
+              </Card>
+            </Col> 
+            <Col size='l3'>
+              <Card
+              picture='true'
+              src={t4} 
+              alt='#'
+              >             
+              
+                I am selling you this brand new car !!
+              </Card>
+            </Col> 
+          </Row>
+
+
+           <Row>
+            <Col size='l3'>
+              <Card
+              picture='true'
+              src={t3} 
+              alt='#'
+              >             
+              
+                I am selling you this fire truck !!
+              </Card>
+            </Col>  
+            <Col size='l3'>
+              <Card
+              picture='true'
+              src={t1} 
+              alt='#'
+              >             
+              
+                I am selling you this brand new car !!
+              </Card>
+            </Col> 
+            <Col size='l3'>
+              <Card
+              picture='true'
+              src={t2} 
+              alt='#'
+              >             
+              
+                I am selling you this cube !!
+              </Card>
+            </Col> 
+            <Col size='l3'>
+              <Card
+              picture='true'
+              src={t4} 
+              alt='#'
+              >             
+              
+                I am selling you this brand new car !!
+              </Card>
+            </Col> 
+          </Row>
+
+
+
           </Container>
 
           
